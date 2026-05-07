@@ -81,8 +81,16 @@ Dense (2 units, Softmax) → Output
 | **Recall** | 0.97 |
 | **F1-Score** | 0.97 |
 
-### Confusion Matrix
-The model correctly distinguishes between wildfire and non-wildfire satellite images with high precision for both classes.
+### 📊 Output Visualizations
+
+#### Training Progress: Accuracy & Loss
+![Training Accuracy & Loss](images/output_004.png)
+
+#### Confusion Matrix
+![Confusion Matrix](images/output_005.png)
+
+#### Sample Predictions
+![Sample Predictions](images/output_006.png)
 
 ---
 
@@ -131,6 +139,14 @@ jupyter notebook
 ```
 wildfire-classification-cnn/
 ├── README.md                                          # This file
+├── images/                                           # Output visualizations
+│   ├── output_000.png                               # Dataset split distribution
+│   ├── output_001.png                               # Class distribution
+│   ├── output_002.png                               # Sample images
+│   ├── output_003.png                               # Training accuracy/loss curves
+│   ├── output_004.png                               # Final training results
+│   ├── output_005.png                               # Confusion matrix
+│   └── output_006.png                               # Grad-CAM visualization
 └── wildfire-classification-using-satellite-images-cnn.ipynb  # Complete notebook
 ```
 
